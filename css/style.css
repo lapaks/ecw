@@ -1,0 +1,149 @@
+img { max-width: 100%; height: auto !important }
+h1, h2, h3, h4, h5, h6 { padding: 0; margin: 0; font-family: 'proxima_nova_rgbold', serif; letter-spacing: 0.5px  } 
+h1 { font-size: 34px; color: #333; margin-bottom: 0.4em; }
+a { color: #35518F; }
+a:focus, a:active, a:hover { outline: none; text-decoration: none }
+ul { margin: 0; padding: 0 }
+p { font-size: 15px; font-size: 1.1em; font-family: 'proxima_novalight', serif; color: #5F5D5D; line-height: 1.3em; font-weight: normal }
+body { font-family: 'proxima_nova_rgregular', serif; }
+/*css for layout*/
+.top_header { background: #E4E4E4; min-height: 55px; text-align: center }
+.top_header h3 { font-size: 16px; line-height: 55px; color: #5F5D5D }
+.top_header h3>a { background: #FF9900; display: inline-block; line-height: 26px; padding: 0 20px; font-size: 13px; color: #fff; font-family: 'proxima_novalight', serif; text-transform: uppercase; -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px; margin-left: 20px }
+#banner>* { color: #fff; }
+#banner { background: url(../img/bg-banner.jpg) no-repeat center top #002475;  text-align: center; padding: 25px 0 }
+#banner h4 { color: #fff; padding: 10px 0; font-size: 20px; font-family: 'proxima_nova_rgregular', serif; }
+#banner h4>strong { font-family: 'proxima_nova_rgbold', serif; }
+#banner p.presents { color: #fff; }
+.txt-enterpreneurs { padding: 20px }
+#banner h3 { padding: 15px 0 10px; font-size: 28px }
+h4.regularfont { font-family: 'proxima_nova_rgregular', serif; font-size: 20px; line-height: 26px }
+.subscription_form .form-control { -moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0; border: none; margin-right: -2px }
+.subscription_form_light .form-control { margin-right: -5px }
+.smalltxt small { color: #fff; display: block; padding: 10px 0 0 0; font-size: 11px; font-family: 'proxima_novalight', serif; }
+.black small, .black small>a { color: #333 }
+.smalltxt a { color: #fff; text-decoration: underline }
+#entrepreneurs_conference, #whos_talking, #what_is_discount_code, #who_will_help, #the_book, #who_are_we, #map_section, #subscribe_now { padding: 40px 0 }
+h2.small-title { color: #35518f; font-size: 30px; margin-bottom: 15px }
+h1.big-title { color:  #35518f; font-size: 50px; margin-bottom: 10px }
+#entrepreneurs_conference p, #what_is_discount_code p { font-size: 18px; color: #5F5D5D; font-family: 'proxima_novalight', serif; margin-bottom: 20px }
+.discount-btn a { background: #21A9B3; font-size: 15px; font-family: 'proxima_novalight', serif; padding: 15px 40px; border: none; }
+.discount-btn a:hover { background: #21A9B3 }
+#whos_talking, #who_will_help { background: #F1F1F1; border-bottom: solid 4px #35518F; }
+#whos_talking h3.regularfont, #who_will_help h3.regularfont { color: #35528F; font-family: 'proxima_novalight', serif; }
+.experts_column ul, .sponsor_logos { margin: 0; list-style: none }
+.sponsor_logos { text-align: left; margin-top: 20px }
+.experts_column li { margin: 20px 0 10px }
+.expertlists { padding-left: 3px; padding-right: 3px; position: relative; }
+.expertlists p { font-size: 13px; margin-top: 10px; color: #333 }
+.imgsection .mask { width: 189px; height: 189px; position: absolute; overflow: hidden; top: 0; left: 3px; background: #35518F; padding: 15px; -webkit-transition: all 0.8s ease-in-out; -moz-transition: all 0.8s ease-in-out;
+   -o-transition: all 0.8s ease-in-out; -ms-transition: all 0.8s ease-in-out; transition: all 0.8s ease-in-out; -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)"; filter: alpha(opacity=0); opacity: 0;  }
+.mask h2, .mask p, .mask h2>span { color: #fff; font-size: 13px; font-family: 'proxima_novalight', serif; font-weight: normal }
+.mask h2 { font-weight: bold; font-size: 16px; margin-bottom: 3px }
+.imgsection:hover .mask { -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)"; filter: alpha(opacity=100); opacity: 1; }
+.expertlists p>strong { font-size: 15px; font-family: 'proxima_nova_rgbold', serif; color: #333; display: block; margin-top: 4px }
+.sponsor_logos li { text-align: center; display: inline-block; margin: 35px 0; min-height: 80px;   }
+.sponsor_logos li>a { line-height: 80px; display: inline-block }
+.sponsor_logos img { filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); filter: gray;  -webkit-filter: grayscale(100%); -webkit-transition: all 0.4s ease-in-out; -moz-transition: all 0.4s ease-in-out;
+   -o-transition: all 0.4s ease-in-out; -ms-transition: all 0.4s ease-in-out; transition: all 0.4s ease-in-out; -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=50)"; filter: alpha(opacity=50); opacity: 0.5; }
+.sponsor_logos img:hover { filter: none;  -webkit-filter: grayscale(0%); -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)"; filter: alpha(opacity=100); opacity: 1; }
+.lil_small { font-size: 26px !important; margin-top: 25px }
+#the_book h2, #the_book h4 { font-family: 'proxima_novalight', serif; color: #717171; margin: 0 0 10px }
+#the_book h2 { font-size: 25px; }
+#the_book h4 { font-size: 18px; margin: 30px 0 15px }
+#who_are_we { background: #35518F }
+#who_are_we h1.big-title { color: #fff !important; font-size: 40px !important }
+#who_are_we p { color: #fff !important; font-size: 17px !important; margin-bottom: 25px }
+#map_section { background: url(../img/bg-map.jpg) no-repeat top center; min-height: 419px; max-height: 420px }
+.contactinfo { background:  rgba(255, 255, 255, 0.8); padding: 5px 35px 20px 35px; display: inline-block; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
+.contactinfo p { font-size: 20px; color: #292929 }
+.marker-icon { margin: 20px 0 }
+.mainfooter { background: #F1F1F1 }
+.footerarea { background: url(../img/bigflashicon.png) no-repeat right center; padding: 40px 0 }
+.footerlogo { /*background: url(../img/footerlogoicon.png) no-repeat 0 0; padding-left: 100px;*/ min-height: 85px; margin-bottom: 25px }
+.footerlogo img { float: left; margin-right: 13px }
+.footerlogo>* { color: #35518F }
+.footerlogo h2 { font-size: 30px; }
+.footerlogo h3 { font-size: 30px; font-family: 'proxima_nova_rgregular', serif; }
+.footerlogo p { font-size: 15px; font-weight: bold; font-family: 'proxima_nova_rgbold', serif; }
+.copyrightblox p { color: #5F5D5D; font-size: 13px }
+.address_blox p { color: #35518F; margin-bottom: 15px }
+.footerbuttons a { background: #35518F; padding: 10px 25px; min-width: 170px }
+.footerbuttons a:hover { background: #35518F }
+.navbar { margin-bottom: 0 }
+
+
+
+
+
+.callback,
+.simple,
+.offset {
+  -webkit-transition: background 0.5s ease-out;
+  transition: background 0.5s ease-out;
+}
+
+
+
+
+@media (max-width: 767px) {
+	.timing_available, .navigation, #banner, #entrepreneurs_conference, #whos_talking, #what_is_discount_code, #who_will_help, #the_book, #who_are_we, #map_section, #subscribe_now, .mainfooter { padding-right: 20px; padding-left: 20px }
+	.timing_available { padding: 10px 0 }
+	.navbar-toggle .icon-bar { background: #555 }
+	.timing_available h3 { line-height: 30px; font-size: 11px; }
+	.timing_available h3>a { display: inline-block }
+	.navigation { min-height: 70px; }
+	#banner h3, #banner h4 { font-size: 14px }
+	#banner h4.mobifont { font-size: 18px !important }
+	.discount-btn a, .footerbuttons a { display: block; }
+	.mask { display: none; }
+	.subscription_form_light input { border: solid 1px #C9C9C9 !important }
+	.footerlogo { text-align: left; }
+	.subscription_form .btn-submit-subscription { background: #4FB189 !important; color: #fff; text-transform: uppercase; font-size: 15px; font-family: 'proxima_novalight', serif; border: none; height: 50px }
+	.sponsor_logos li { width: 48% }
+	.small-container { margin: 0 auto; width: 100%; padding: 0 15px; text-align: center }
+	#the_book img { float: none; }
+	.copyright, .address_blox { text-align: center }
+	.subscription_form input, .subscription_form_light input {  height: 50px; }
+	.address_blox, .navbar-nav { margin-top: 20px }
+	h2.small-title { font-size: 25px !important }
+	.sponsor_logos li { margin: 10px 0 }
+	.navbar-nav>li>a { border-bottom: solid 1px #f1f1f1 }
+	.footerarea { background: url(../img/bigflashicon.png) no-repeat center center; }
+	
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.navigation .container { width: 100% }
+	.navbar { border: none; margin: 0; }
+	.navbar-nav { float: none; text-align: center }
+	.navbar-nav>li { float: none; display: inline-block }
+	.navbar-nav>li>a { color: #5F5D5D; font-size: 15px; text-transform: uppercase; font-family: 'proxima_novalight', serif; padding-top: 20px; padding-bottom: 20px }
+	.navbar-nav>li>a:hover { background: none; color: #000; }
+	.navigation .navbar-nav { margin: 0 }
+	.subscription_form input { background: #fff; height: 50px; min-width: 255px; max-width: 295px }
+	.subscription_form_light input { background: #fff; height: 50px; min-width: 255px; max-width: 295px; border: solid 1px #C9C9C9 !important }
+	.subscription_form .btn-submit-subscription { background: #4FB189; height: 51px; line-height: 50px; padding: 0 70px; color: #fff; text-transform: uppercase; font-size: 15px; font-family: 'proxima_novalight', serif; border: none }
+	.sponsor_logos li { width: 32% }
+	.small-container { margin: 0 auto; width: 610px; }
+	#the_book img { float: left; margin: 0 20px 0 0 }
+	img.theguardian_logo { float: none !important; }
+	.address_blox { text-align: right }
+	
+	
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+	.subscription_form input, .subscription_form_light input { min-width: 295px; max-width: 295px }
+	
+}
+
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+	#entrepreneurs_conference p, #what_is_discount_code p, #who_are_we p { padding: 0 170px }
+	.sponsor_logos li { width: 18% }
+	.sponsor_logos { padding: 0 40px }
+}
